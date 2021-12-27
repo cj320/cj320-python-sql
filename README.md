@@ -93,6 +93,7 @@ class Employee(db.Model):
 | index  | GET        | <http://localhost:5000/contract/>         | Show all contract objects.            |
 
 **Contracts Table API Endpoint Requirements:**
+
 **Create:** <http://localhost:5000/contract/>
  *Note:* Requires **all** of the following parameters
 
