@@ -12,17 +12,17 @@ in the database.
 
 ### 🤔 Retrospection
 
-1. How did the projects design evolve over time?
+1. **How did the projects design evolve over time?**
 
 My project evolved from injecting raw SQL statements based off of my original ER digaram, to taking a more programmatic approch using
 the methods taught in the later lessons of this course. I ultimately decided on reducing the number of attributes that were
 originally associated with my entities, so I could devote more time to fixing bugs in the ORM source code.
 
-2. Did you choose to use an ORM or raw SQL? Why?
+2. **Did you choose to use an ORM or raw SQL? Why?**
 
 I decided to use an ORM approach because I wanteed to get more practice using the Flask SQL Python Libraries that were taught in this course.
 
-3. What future improvements are in store if any?
+3. **What future improvements are in store if any?**
 
 The future improvements of this program is as follows:
 
