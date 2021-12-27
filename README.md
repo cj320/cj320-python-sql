@@ -81,7 +81,7 @@ class Employee(db.Model):
 
 ## 💡 REST API
 
-### 📝 Contracts Table API Reference
+### 📝 Contracts Table API Endpoint Reference
 
 **Contracts Table:**
 | NAME   | METHOD     | ENDPOINT                                | DESCRIPTION                           |
@@ -92,7 +92,7 @@ class Employee(db.Model):
 | show   | GET        | <http://localhost:5000/contract/><id:int> | Show a contract object by contract id |
 | index  | GET        | <http://localhost:5000/contract/>         | Show all contract objects.            |
 
-**Contracts API Endpoint Requirements:**
+**Contracts Table API Endpoint Requirements:**
 **Create:** <http://localhost:5000/contract/>
  *Note:* Requires **all** of the following parameters
 
@@ -107,7 +107,7 @@ class Employee(db.Model):
 * customer_name (string)
 * open_reqs (integer)
 
-### 📝 Employees Endpoint Table API Reference
+### 📝 Employees Table API Endpoint Reference
 
 **Employees Endpoints:**
 | NAME   | METHOD     | ENDPOINT                                | DESCRIPTION                            |
@@ -118,7 +118,7 @@ class Employee(db.Model):
 | show   | GET        | <http://localhost:5000/employee/><id:int> | Show an employee object by employee.id |
 | index  | GET        | <http://localhost:5000/employee/>         | Show all employee objects.             |
 
-**Employees API Endpoint Requirements:**
+**Employees Table API Endpoint Requirements:**
 
 **Create:** <http://localhost:5000/employee>
  *Note:* Requires **all** of the following parameters
@@ -138,7 +138,7 @@ class Employee(db.Model):
 * contract_id (integer)
 * labor_id (integer)
 
-### 📝 Labor Categories Table API Reference
+### 📝 Labor_Categories Table API Endpoint Reference
 
 **Labor_Categories Endpoints:**
 | NAME   | METHOD     | ENDPOINT                             | DESCRIPTION                                        |
