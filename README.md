@@ -20,7 +20,7 @@ originally associated with my entities, so I could devote more time to fixing bu
 
 2. **Did you choose to use an ORM or raw SQL? Why?**
 
-I decided to use an ORM approach because I wanteed to get more practice using the Flask SQL Python Libraries that were taught in this course.
+I decided to use an ORM approach because I wanted to get more practice using the Flask SQL Python Libraries that were taught in this course.
 
 3. **What future improvements are in store if any?**
 
