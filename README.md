@@ -14,13 +14,13 @@ in the database.
 
 1. How did the projects design evolve over time?
 
-My evolved from injecting raw SQL statements based off of my original ER digaram, to taking a more programmatic approch using
-as I began understanding the later lessons of this course. I ultimately decided on reducing the number of attributes that were
-originally associated with my entities, so I could more time fix bugs in ORM source code and getting it to compile without errors.
+My project evolved from injecting raw SQL statements based off of my original ER digaram, to taking a more programmatic approch using
+the methods taught in the later lessons of this course. I ultimately decided on reducing the number of attributes that were
+originally associated with my entities, so I could devote more time to fixing bugs in the ORM source code.
 
 2. Did you choose to use an ORM or raw SQL? Why?
 
-I decided to use an ORM because I get more practice using the Flask SQL Python Libraries that were taught in this course.
+I decided to use an ORM approach because I wanteed to get more practice using the Flask SQL Python Libraries that were taught in this course.
 
 3. What future improvements are in store if any?
 
