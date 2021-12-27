@@ -5,10 +5,10 @@
 ## 💡 Description
 
 This project uses Object Relational Mapping (ORM) to create a database of employees for a fictional company
-named Infotech. It includes three entities which keeps track employee's personal information, labor category,
+named Infotech. It includes three entities which keeps track of an employee's personal information, labor category,
 and contract they work on using One-To-One,One-to-Many, and Many-to-Many relationships. Additionally, the application
-programming interface (API) that is included in the project, allows one to retrieve, modify , and delete records in every
-table that is created in this project.
+programming interface (API) that is included in the project, allows one to retrieve, modify , and delete records on all tables 
+in the database.
 
 ### 🤔 Retrospection
 
