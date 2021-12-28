@@ -1,7 +1,4 @@
-import random
-import string
-import hashlib
-import secrets
+#!/usr/bin/python3
 from faker import Faker
 from infotech.src.models import Labor, Contract, Employee, association_table, db
 from infotech.src.table_data import create_employees, contracts, labor_categories
@@ -19,7 +16,6 @@ def main():
     app = create_app()
     app.app_context().push()
     truncate_tables()
-    fake = Faker()
 
     # Insert data into Labor Category Table
     for labor_cat in labor_categories:
