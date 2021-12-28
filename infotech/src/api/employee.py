@@ -95,3 +95,4 @@ def delete(id:int):
     except:
         # something went wrong
         return jsonify(False)
+
